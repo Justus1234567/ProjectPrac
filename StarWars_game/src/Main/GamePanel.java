@@ -36,9 +36,9 @@ public class GamePanel extends JPanel{
 
     private void setPanelSize() {
         Dimension size = new Dimension(1280,800);
-        setMinimumSize(size);
         setPreferredSize(size);
-        setMaximumSize(size);
+        
+        
     }
 
     public void changeXDelta(int value){
